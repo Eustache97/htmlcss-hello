@@ -8,8 +8,24 @@ body{
     padding: 0;
 }
 #container{
+margin-left: 100px;
 width: 1000px;
 height: 500px;
+position: relative;
+}
+
+#hello{
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#pannello{
+    height: 10px;
+    background-color: grey;
 }
 
 #image img{
@@ -19,6 +35,7 @@ height: 500px;
 .letter{
     height: 150px;
     font-size: 120px;
+    float: left;
 }
 #l1{
     color: red;
