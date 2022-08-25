@@ -1,4 +1,6 @@
-
+body{
+    text-align: center;
+}
 *{
     font-family: 'Permanent Marker', cursive;
     margin: 0;
@@ -7,17 +9,45 @@
 }
 #container{
 width: 1000px;
+height: 500px;
 }
-#hello{
-    width: 800px;
-    height: 150px;
-}
+
 #image img{
     height: 200px;
     width: 100px;
 }
 .letter{
-    height: 100%;
+    height: 150px;
     font-size: 120px;
-    float: left;
+}
+#l1{
+    color: red;
+}
+#l2{
+    color: brown;
+}
+#l3{
+    color: orangered;
+}
+#l4{
+    color: orange;
+}
+#l5{
+    color: yellow;
+    margin-right: 25px;
+}
+#l6{
+    color: yellowgreen;
+}
+#l7{
+    color: green;
+}
+#l8{
+    color: darkgreen;
+}
+#l9{
+    color: blue;
+}
+#l10{
+    color: blueviolet;
 }
